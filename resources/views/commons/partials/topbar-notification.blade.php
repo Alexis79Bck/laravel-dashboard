@@ -1,30 +1,39 @@
-<li class="dropdown notification-list">
-    <a class="nav-link dropdown-toggle  waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+<li class="dropdown notification-list" >
+    <a class="nav-link dropdown-toggle  waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false" >
         <i class="fe-bell noti-icon"></i>
-        <span class="badge badge-danger rounded-circle noti-icon-badge">5</span>
+        <!-- Numero de Mensajes Nuevos Recibidos -->
+        <span class="badge badge-danger rounded-circle noti-icon-badge">{{rand(1,8)}}</span>
     </a>
-    <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+    <div class="dropdown-menu dropdown-menu-right dropdown-lg" >
 
-        <!-- item-->
-        <div class="dropdown-item noti-title">
-            <h5 class="m-0 text-white">
-                <span class="float-right">
-                    <a href="" class="text-light">
-                        <small>Clear All</small>
+        <!-- Encabezado -->
+        <div class="noti-title" >
+            <h5 class="text-dark" >
+                <span class="float-right" >
+                    <a href="" class="text-link-dark">
+                        <small>Limpiar Todo</small>
                     </a>
-                </span>Notification
+                </span>Notificaciones
             </h5>
         </div>
+        
 
         <div class="slimscroll noti-scroll">
 
+            <!--
+                TODO:
+                - Funcion dinamica para obtener notificaciones.
+                - Usuario / Detalle de notificacion.
+                - Mensaje 
+                - Tiempo de creacion
+            -->
             <!-- item-->
             <a href="javascript:void(0);" class="dropdown-item notify-item active">
                 <div class="notify-icon">
                     <img src="assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
                 <p class="notify-details">Cristina Pride</p>
                 <p class="text-muted mb-0 user-msg">
-                    <small>Hi, How are you? What about our next meeting</small>
+                    <small>Hola, Como estas?</small>
                 </p>
             </a>
 
@@ -33,8 +42,8 @@
                 <div class="notify-icon bg-primary">
                     <i class="mdi mdi-comment-account-outline"></i>
                 </div>
-                <p class="notify-details">Caleb Flakelar commented on Admin
-                    <small class="text-muted">1 min ago</small>
+                <p class="notify-details">Comentario de Administrador
+                    <small class="text-muted">Hace {{ rand(1, 12)}} minutos</small>
                 </p>
             </a>
 
@@ -68,23 +77,20 @@
                 </p>
             </a>
 
-            <!-- item-->
-            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                <div class="notify-icon bg-secondary">
-                    <i class="mdi mdi-heart"></i>
-                </div>
-                <p class="notify-details">Carlos Crouch liked
-                    <b>Admin</b>
-                    <small class="text-muted">13 days ago</small>
-                </p>
-            </a>
         </div>
 
         <!-- All-->
-        <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
-            View all
-            <i class="fi-arrow-right"></i>
-        </a>
+        <div class="noti-title text-center" >
+            <h5 class="text-dark" >
+                
+                    <a href="javascript:void(0);" class="text-link-dark">
+                        {{__('Mostrar Todo')}}
+                    </a>
+                
+            </h5>
+            
+        </div>
+        
 
     </div>
 </li>
