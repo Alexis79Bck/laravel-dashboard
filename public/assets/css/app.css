@@ -17,12 +17,16 @@ body {
 
 .metismenu {
   padding: 0; }
+  .metismenu a:link{
+    text-decoration: none; }
   .metismenu li {
     list-style: none; }
   .metismenu ul {
     padding: 0; }
     .metismenu ul li {
       width: 100%; }
+      .metismenu ul li a:link{
+        text-decoration: none; }
 
 .metismenu .collapse {
   display: none; }
@@ -41,18 +45,22 @@ body {
   -webkit-transition-property: height, visibility;
   transition-property: height, visibility; }
 
+ .nav-second-level, .nav-third-level {
+    background-color: #e6e6e6;
+  }
+
 .nav-second-level li a,
-.nav-thrid-level li a {
+.nav-third-level li a {
   padding: 8px 20px;
-  color: #8391a0;
+  color: #001835;
   display: block;
   position: relative;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
   .nav-second-level li a:focus, .nav-second-level li a:hover,
-  .nav-thrid-level li a:focus,
-  .nav-thrid-level li a:hover {
-    color: #acd3ff; }
+  .nav-third-level li a:focus,
+  .nav-third-level li a:hover {
+    color: #0077ff; }
 
 .nav-second-level li.active > a,
 .nav-third-level li.active > a {
@@ -81,7 +89,7 @@ body {
           box-shadow: 0 0 18px 0 rgba(23, 28, 34, 0.603); }
 
 #sidebar-menu > ul > li > a {
-  color: #8391a0;
+  color: whitesmoke;
   display: block;
   padding: 13px 20px;
   position: relative;
@@ -90,7 +98,8 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 0.925rem; }
   #sidebar-menu > ul > li > a:hover, #sidebar-menu > ul > li > a:focus, #sidebar-menu > ul > li > a:active {
-    color: #a8bcd2;
+    background-color: #e6e6e6;
+    color:#001835;
     text-decoration: none; }
   #sidebar-menu > ul > li > a > span {
     vertical-align: middle; }
@@ -141,12 +150,12 @@ body {
 
 #sidebar-menu .menu-title {
   padding: 10px 20px;
-  letter-spacing: .05em;
+  letter-spacing: .06em;
   pointer-events: none;
   cursor: default;
-  font-size: 0.6875rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
-  color: #8391a0;
+  color: whitesmoke;
   font-weight: 600; }
 
 .enlarged .logo-box {
@@ -512,6 +521,9 @@ body.enlarged {
   .profile-dropdown i {
     vertical-align: middle;
     margin-right: 5px; }
+  .profile-dropdown .notify-item:hover {
+    background-color: #e6e6e6; }
+
 
 .nav-user {
   padding: 0 12px !important; }

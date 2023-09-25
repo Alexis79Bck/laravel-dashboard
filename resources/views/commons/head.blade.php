@@ -18,6 +18,7 @@
     <!-- App css -->
     <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/fonts/line-awesome/css/line-awesome.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/app.css')}}" rel="stylesheet" type="text/css" />
 
     <!-- Scripts -->

@@ -1,12 +1,12 @@
 
 <li class="dropdown notification-list">
-    <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+    <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect " data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
         <img src="https://i.pravatar.cc/240" alt="user-image" class="rounded-circle">
         <span class="pro-user-name ml-1">
             Usuario 1 <i class="mdi mdi-chevron-down"></i> 
         </span>
     </a>
-    <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+    <div class="dropdown-menu dropdown-menu-right profile-dropdown border border-secondary">
         
 
         <!-- item-->
@@ -22,7 +22,7 @@
         </a>
 
 
-        <div class="dropdown-divider"></div>
+        <div class="dropdown-divider border border-secondary"></div>
 
         <!-- item-->
         <a href="javascript:void(0);" class="dropdown-item notify-item">
