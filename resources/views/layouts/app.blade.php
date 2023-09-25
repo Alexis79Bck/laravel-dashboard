@@ -17,19 +17,12 @@
         <!-- ============================================================== -->
 
         <div class="content-page">
-            <div class="content">
 
-                <!-- Start Content-->
-                <div class="container-fluid">
 
                     @yield('content')
                     
                     <!-- start page title -->
-                    
-                    
-                </div> <!-- container -->
-                
-            </div> <!-- content -->
+
 
             <!-- Footer Start -->
             
@@ -44,7 +37,7 @@
 
     </div>
     
-    
+    @yield('footer')
     @include('commons.scripts')
     @yield('scripts')
 
