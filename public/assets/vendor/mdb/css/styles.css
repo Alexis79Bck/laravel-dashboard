@@ -1,0 +1,13 @@
+#intro {
+  background-image: url('../../../images/darkblue-bg-pattern-2.jpg');
+  height: 100%;
+}
+.footer-mark {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+

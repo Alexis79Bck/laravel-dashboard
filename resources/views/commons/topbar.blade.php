@@ -2,7 +2,7 @@
 <div class="navbar-custom">
     <ul class="list-unstyled topnav-menu float-right mb-0">
 
-        @include('commons.partials.topbar-search')
+        {{-- @include('commons.partials.topbar-search') --}}
 
         @include('commons.partials.topbar-notification')
 

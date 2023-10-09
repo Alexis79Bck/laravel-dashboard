@@ -15,6 +15,11 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico')}}">
 
+     <!-- MDB -->
+     <link rel="stylesheet" href="{{ asset('assets/vendor/mdb/css/mdb.min.css')}}" />
+     <!-- Custom styles -->
+     <link rel="stylesheet" href="{{ asset('assets/vendor/mdb/css/styles.css')}}" />
+
     <!-- App css -->
     <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />

@@ -1,6 +1,6 @@
-<footer class="footer footer-alt">
-    2022 - <span id="footer-year"></span> &copy; Alexis E. Mata
-</footer>
+<div class="footer-mark text-center text-white">
+     &copy; 2022 - <span id="footer-year"></span>. Desarrollado por: Alexis E. Mata
+</div>
 
 <script>
     const footerYear = document.querySelectorAll("#footer-year");

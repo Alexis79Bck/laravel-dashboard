@@ -1,13 +1,11 @@
 @extends('layouts.base-login')
 
 @section('login-card')
-    <div class="card shadow elevation-2" style="background-color: #cef4ff;">
-        <div class="card-header mx-auto text-center">
+    <div class="card shadow elevation-2 w-75 mx-auto" style="margin-top: 80px" >
+        <div class="mx-auto text-center">
 
-            <img src="{{ asset('assets/images/illustration-dashboard-admin.jpg') }}" alt="" height="192px"
-                    width="192px">
-
-            <p class="h6 fw-bold mb-4 mt-3">Ingrese su nombre de usuario para acceder al Panel.</p>
+            <img src="{{ asset('assets/images/illustration-dashboard-admin.jpg') }}" alt="logo" height="128px"
+                    width="128px">
         </div>
         <div class="card-body p-4">
 
@@ -82,8 +80,8 @@
 @endsection
 
 @section('forget-password-link')
-        <p> 
-            <a href="pages-recoverpw.html" class="text-muted ml-1">
+        <p class="text-white"> 
+            <a href="pages-recoverpw.html" class="text-light ml-1">
                 {{__('Olvidaste la Contraseña')}}?
             </a>
         </p>
@@ -93,9 +91,9 @@
 
 @section('create-account-link')
 
-<p class="text-muted">
-    {{__('No tienes una cuente')}}? 
-    <a href="pages-register.html"class="text-muted ml-1">
+<p class="text-white">
+    {{__('No tienes una cuenta')}}? 
+    <a href="pages-register.html"class="text-light ml-1">
         <span class="fw-bold">{{__('Registrate')}}</span>
     </a>
 </p>
