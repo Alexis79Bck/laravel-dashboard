@@ -1,14 +1,15 @@
 @include('commons.head')
+
 <body>
     <div id="wrapper">
 
         <!-- Topbar Start -->
-        
+
         @include('commons.topbar')
         <!-- end Topbar -->
 
         <!-- ========== Left Sidebar Start ========== -->
-      
+
         @include('commons.sidebar')
         <!-- Left Sidebar End -->
 
@@ -17,18 +18,15 @@
         <!-- ============================================================== -->
 
         <div class="content-page">
+            <div class="content">
 
+                @yield('content')
 
-                    @yield('content')
-                    
-                    <!-- start page title -->
+                <!-- Footer Start -->
 
-
-            <!-- Footer Start -->
-            
-            {{-- @include('commons.footer') --}}
-            <!-- end Footer -->
-
+                {{-- @include('commons.footer') --}}
+                <!-- end Footer -->
+            </div> <!-- content -->
         </div>
 
         <!-- ============================================================== -->
@@ -36,10 +34,11 @@
         <!-- ============================================================== -->
 
     </div>
-    
+
     @yield('footer')
     @include('commons.scripts')
     @yield('scripts')
 
 </body>
+
 </html>
