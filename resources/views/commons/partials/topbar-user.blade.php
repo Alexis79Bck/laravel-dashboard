@@ -3,7 +3,7 @@
     <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect " data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
         <img src="https://i.pravatar.cc/240" alt="user-image" class="rounded-circle">
         <span class="pro-user-name ml-1">
-            {{-- {{ Auth::user()->fullname}}   --}}
+             {{ Auth::user()->fullname}}  
         </span>
     </a>
     <div class="dropdown-menu dropdown-menu-right profile-dropdown border border-secondary">
