@@ -18,7 +18,7 @@ use App\Http\Controllers\CustomAuthController;
 
 
 Route::get('/', function () {
-    return view('layouts.app');
+    return view('layouts.web.app');
 });
 
 // Auth::routes();
