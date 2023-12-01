@@ -13,7 +13,7 @@
     <!-- GLOBAL MANDATORY STYLES -->
     <link href="{{ asset('assets/fonts/fonts-customs.css')}}" rel="stylesheet" type="text/css">
     <link href="{{ asset('assets/vendor/simple-line-icons/simple-line-icons.css')}}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('assets/vendor/bootstrap5/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css"/>
 
     <!-- PAGE LEVEL PLUGIN STYLES -->
     <link href="{{ asset('assets/css/animate.css')}}" rel="stylesheet" type="text/css" />
