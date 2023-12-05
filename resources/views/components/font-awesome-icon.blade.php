@@ -1,0 +1,1 @@
+<i class="fa fa-{{$name}} text-{{$color}}"></i>

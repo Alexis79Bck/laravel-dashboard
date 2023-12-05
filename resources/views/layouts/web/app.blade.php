@@ -1,7 +1,12 @@
 @include('commons.web.head')
 
 <body>
+    <div id="all">
 
+          <!-- Top bar-->
+          @include('commons.web.topbar')
+          <!-- Top bar end-->
+          <x-modal modalId="loginModal" />
     <!--========== HEADER ==========-->
     <header class="header navbar-fixed-top">
         <!-- Navbar -->
@@ -543,7 +548,7 @@
     <!-- ============================================================== -->
     <!-- End Page content -->
     <!-- ============================================================== -->
-
+    </div>
     @include('commons.web.footer')
     @include('commons.web.scripts')
 
